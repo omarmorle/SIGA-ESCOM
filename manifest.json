@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "SIGA-ESCOM",
+    "description": "Extension para el cálculo de creditos de la materia electiva en la ESCOM",
+    "version": "1.0",
+    "icons": {
+        "128": "icon.png"
+    },
+    "permissions": [
+        "activeTab",
+        "storage",
+        "tabs",
+        "scripting"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "host_permissions": [
+        "https://sigaclub.com/*"
+    ]
+}
